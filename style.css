@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  padding: 0;
+}
+
+.container {
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #f0f3bd;
+}
+
+.gameElement {
+  height: 100px;
+  width: 100px;
+  background-color: #15616d;
+  color: white;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.choice {
+  height: 100px;
+  background-color: #98f5e1;
+  padding: 10px;
+}
+
+.gameResult,
+#result {
+  background-color: #f0f3bd;
+  padding: 10px 0;
+}
+
+.gameRecord {
+  height: 100px;
+  background-color: #6ede8a;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+#record {
+  font-weight: bold;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#resetButton {
+  height: 25px;
+  background-color: #a11d33;
+  color: azure;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+#resetButton:hover {
+  height: 25px;
+  background-color: #e01e37;
+  color: azure;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.resetClass {
+  padding: 5px;
+  background-color: ivory;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Stone Paper Scissor Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="choiceButton">
+        <button class="gameElement" id="stone">Stone</button>
+        <button class="gameElement" id="paper">Paper</button>
+        <button class="gameElement" id="scissor">Scissor</button>
+      </div>
+
+      <div class="choice">
+        <p id="userChoice">User Choice: null</p>
+        <p id="computerChoice">Computer Choice: null</p>
+      </div>
+
+      <div class="gameResult">
+        <p id="result">Result</p>
+      </div>
+
+      <div class="gameRecord">
+        <table id="recordTable">
+          <caption id="record">
+            Record:
+          </caption>
+          <tr>
+            <td>You</td>
+            <td>Computer</td>
+            <td>Tie</td>
+          </tr>
+          <tr>
+            <td id="userScore">0</td>
+            <td id="computerScore">0</td>
+            <td id="tieScore">0</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="resetClass">
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
