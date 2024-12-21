@@ -5,8 +5,8 @@ let gameEl = {
 };
 
 let opponent = {
-  user: "user",
-  computer: "computer",
+  user: "You",
+  computer: "Computer",
 };
 
 let choice = {
@@ -23,7 +23,7 @@ let winner = {
 let displayChoice = function () {
   document.querySelector(
     "#userChoice"
-  ).textContent = `User Choice: ${choice.user}`;
+  ).textContent = `Your Choice: ${choice.user}`;
   document.querySelector(
     "#computerChoice"
   ).textContent = `Computer Choice: ${choice.computer}`;
